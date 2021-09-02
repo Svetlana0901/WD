@@ -100,8 +100,6 @@ body {
 .header__logo img {
 	max-width: 100%;
 }
-.header__menu {
-}
 .menu-header__list {
 	display: flex;
 	justify-content: flex-end;
@@ -133,7 +131,7 @@ body {
 	display: none;
 }
 
-@media (max-width: 767px){
+@media (max-width: 768px){
 	body.lock {
 		overflow: hidden;
 	}
@@ -234,8 +232,6 @@ body {
 .top__image img {
 	max-width: 100%;
 }
-.top__content {
-}
 .content-top__body {
 	padding: 10px 16px;
 }
@@ -267,7 +263,7 @@ body {
 	padding: 25px 41px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 993px) {
 	.top {
 		padding: 180px 0 80px 0;
 	}
@@ -284,7 +280,7 @@ body {
 		padding: 18px 35px;
 	}
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 	.top {
 		padding: 150px 0 60px 0;
 	}
@@ -305,7 +301,7 @@ body {
 		line-height: 48px;
 	}
 }
-@media (max-width: 479px) {
+@media (max-width: 480px) {
 	.top {
 		padding: 100px 0 40px 0;
 	}
@@ -322,8 +318,6 @@ body {
 	max-width: 580px;
 	margin: 0 auto;
 }
-.about__content {
-}
 .about__title {
 	text-align: center;
 	margin-bottom: 39px;
@@ -334,7 +328,7 @@ body {
 	color: #727272;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 993px) {
 	.about {
 		padding: 70px 0px;
 	}
@@ -342,7 +336,7 @@ body {
 		margin-bottom: 35px;
 	}
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 	.about {
 		padding: 50px 10px;
 	}
@@ -350,7 +344,7 @@ body {
 		margin-bottom: 28px;
 	}
 }
-@media (max-width: 479px) {
+@media (max-width: 480px) {
 	.about {
 		padding: 35px 10px;
 	}
@@ -415,7 +409,7 @@ body {
 		flex: 0 0 50%;
 	}
 }
-@media (max-width: 479px) {
+@media (max-width: 480px) {
 	.numbers {
 		padding: 30px 0;
 	}
@@ -483,7 +477,7 @@ body {
 	object-fit: cover;
 }
 
-@media (max-width: 997px) {
+@media (max-width: 993px) {
 	.skills {
 		padding: 50px 0;
 	}
@@ -498,7 +492,7 @@ body {
 		margin-left: 0px;
 	}
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 	.skills {
 		padding: 10px 0;
 	}
@@ -533,7 +527,7 @@ body {
 		margin-bottom: 30px;
 	}
 }
-@media (max-width: 479px) {
+@media (max-width: 480px) {
 	.skills__row {
 		padding: 5px;
 	}
@@ -549,8 +543,6 @@ body {
 	background-color: #EEEFF1;
 	padding: 100px 0;
 	margin-bottom: 30px;
-}
-.video__body {
 }
 .video__content {
 	max-width: 540px;
@@ -590,7 +582,7 @@ body {
 	height: 100%;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 	.video {
 		padding: 50px 0;
 	}
@@ -652,15 +644,13 @@ body {
 .projects__image img {
 	max-width: 100%;
 }
-.popup-link {
-}
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 	.projects__column {
 		flex: 0 1 50%;
 	}
 }
-@media (max-width: 479px) {
+@media (max-width: 480px) {
 	.projects__column {
 		flex: 0 1 100%;
 	}
@@ -669,7 +659,6 @@ body {
 		display: none;
 	}
 }
-
 /*================================================================*/
 .clients {
 	background-color: #f9f9f9;
@@ -692,7 +681,7 @@ body {
 	background-color: #f9f9f9;
 }
 
-@media (max-width: 997px) {
+@media (max-width: 993px) {
 	.clients {
 		padding: 30px 0px 10px 0px;
 	}
@@ -707,7 +696,7 @@ body {
 		text-align: center;
 	}
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 	.clients {
 		padding: 15px 0px 5px 0px;
 	}
@@ -715,7 +704,7 @@ body {
 		margin-bottom: 15px;
 	}
 }
-@media (max-width: 479px) {
+@media (max-width: 480px) {
 	.clients__item {
 		flex: 0 1 100%;
 	}
@@ -738,8 +727,6 @@ body {
 	color: #727272;
 	margin-bottom: 57px;
 	line-height: 26.25px;
-}
-.form__block {
 }
 .block-form__row {
 	display: flex;
@@ -771,7 +758,7 @@ body {
 .block-form__input._error {
 	box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
 }
-@media (max-width: 997px) {
+@media (max-width: 993px) {
 	.form {
 		padding: 50px 0px;
 	}
@@ -808,8 +795,6 @@ body {
 	justify-content: space-between;
 	align-items: center;
 }
-.footer__column {
-}
 .footer__content {
 	display: flex;
 	flex-direction: column;
@@ -844,12 +829,12 @@ body {
 	text-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
 }
 
-@media (max-width: 997px) {
+@media (max-width: 993px) {
 	.footer {
 		padding: 30px 0;
 	}
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 	.footer__row {
 		flex-direction: column-reverse;
 	}
@@ -860,7 +845,7 @@ body {
 		text-align: center;
 	}
 }
-@media (max-width: 479px) {
+@media (max-width: 480px) {
 	.footer {
 		padding: 20px 0;
 	}
@@ -908,7 +893,7 @@ body {
 	max-width: 100%;
 }
 
-@media (max-width: 479px) {
+@media (max-width: 480px) {
 	.popup:target {
 		display: none;
 	}
